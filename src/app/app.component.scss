@@ -1,0 +1,105 @@
+.page {
+    font-family: 'David Libre', serif;
+    text-align: center;
+    direction: rtl;
+    background: linear-gradient(to bottom, #f5f5f5, #e6dac8);
+    color: #3e2723;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    
+    @media (max-width: 768px) {
+        padding: 15px;
+    }
+    
+    @media (max-width: 480px) {
+        padding: 10px;
+    }
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: center;
+}
+.steps{
+    margin-top: 30px;
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    color: #8b5e3b;
+    margin-bottom: 10px;
+}
+.subtitle {
+    font-size: 1.4em;
+    color: #5e4035;
+    margin-bottom: 20px;
+}
+.tehillim {
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-top: 20px;
+    line-height: 2;
+    background: #fdf5e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.tehillim p {
+    font-family: "Suez One", serif;
+    color: #8b5e3b;
+}
+.share-btn {
+    display: block;
+    width: 80%;
+    padding: 12px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #8b5e3b, #a67c52);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 1.4em;
+    transition: background 0.3s ease;
+}
+.share-btn:hover {
+    background: linear-gradient(to right, #6f452c, #8b5e3b);
+}
+.active{
+    // font-family: 'Amatic SC', cursive;
+    padding: 8px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 25px;
+    background-color: #6f452c;
+    color: white;
+    cursor: pointer;
+}
+.not-active{
+    // font-family: 'Amatic SC', cursive;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #3e2723;
+    color: #6f452c;
+}
+.nav-btn{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-weight: 700 !important;
+    margin-top: 10px;
+}
