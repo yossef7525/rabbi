@@ -1,5 +1,5 @@
 <div class="page">
-    <div class="container rounded-none lg:rounded-lg h-screen lg:h-auto">
+    <div class="container rounded-none lg:rounded-lg min-h-screen lg:h-auto">
     <h1>תהילים לרפואת האדמו"ר מוזיניץ שליט"א</h1>
     <p class="subtitle">אנא קראו את הפרקים מתוך פרק קי"ט לרפואתו השלמה</p>
     
@@ -30,6 +30,9 @@
             <p-button  severity="contrast" [style]="{'font-weight': 'bold'}" (click)="prev()">→ הקודם</p-button>
             <p-button severity="contrast" [style]="{'font-weight': 'bold'}" (click)="next()">הבא ←</p-button>
         </div>
+    </div>
+    <div class="flex justify-center">
+        <p [innerHTML]="footer" class="pt-5 lg:w-1/2"></p>
     </div>
 </div>
 </div>
