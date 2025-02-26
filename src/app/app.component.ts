@@ -14,7 +14,7 @@ import { ButtonModule } from 'primeng/button';
 })
 export class AppComponent {
   title = 'rabbi';
-  activeIndex:number = 3;
+  activeIndex:number = 0;
   therabbiName = 'ישראלבןלאהאסתר';
 
   setIndex(index: number) {
